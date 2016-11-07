@@ -1,3 +1,17 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/node-minibase/minibase-visit/compare/v1.0.0...v1.0.1) (2016-11-07)
+
+
+### Bug Fixes
+
+* **package:** update minibase-is-registered to version 1.1.0 ([c1b7a36](https://github.com/node-minibase/minibase-visit/commit/c1b7a36))
+
+
+
 
 ## 1.0.0 - 2016-11-07
 - First release
