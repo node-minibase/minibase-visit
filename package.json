@@ -38,7 +38,32 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "array",
+    "arrays",
+    "base",
+    "baseplugin",
+    "call",
+    "called",
+    "context",
+    "core",
+    "ctx",
+    "function",
+    "helper",
+    "invoke",
+    "key",
+    "map",
+    "mapper",
+    "method",
+    "minibase",
+    "minibaseplugin",
+    "object",
+    "objects",
+    "recursive",
+    "value",
+    "visit",
+    "visitor"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
