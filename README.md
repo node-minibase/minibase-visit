@@ -79,6 +79,14 @@ console.log(context.cc) // => { dd: 'bbb' }
 console.log(context.dd) // => 'bbb'
 ```
 
+## Related
+- [base-task-alias](https://www.npmjs.com/package/base-task-alias): Plugin that adds `.taskAlias` method to your @node-base application. Creating alias task for some task. | [homepage](https://github.com/tunnckocore/base-task-alias#readme "Plugin that adds `.taskAlias` method to your @node-base application. Creating alias task for some task.")
+- [minibase-assert](https://www.npmjs.com/package/minibase-assert): Plugin for [minibase][] and [base][], that adds assertion methods - most of [assert-kindof][] methods and built-ins assert module. | [homepage](https://github.com/node-minibase/minibase-assert#readme "Plugin for [minibase][] and [base][], that adds assertion methods - most of [assert-kindof][] methods and built-ins assert module.")
+- [minibase-is-registered](https://www.npmjs.com/package/minibase-is-registered): Plugin for [minibase][] and [base][], that adds `isRegistered` method to your application to detect if plugin is already registered and returns true or false if… [more](https://github.com/node-minibase/minibase-is-registered#readme) | [homepage](https://github.com/node-minibase/minibase-is-registered#readme "Plugin for [minibase][] and [base][], that adds `isRegistered` method to your application to detect if plugin is already registered and returns true or false if named plugin is already registered on the instance.")
+- [minibase-results](https://www.npmjs.com/package/minibase-results): Plugin for [minibase][] that adds useful initial properties for test results | [homepage](https://github.com/node-minibase/minibase-results#readme "Plugin for [minibase][] that adds useful initial properties for test results")
+- [minibase](https://www.npmjs.com/package/minibase): MiniBase is minimalist approach to Base - @node-base, the awesome framework. Foundation for building complex APIs with small units called plugins. Works well with most… [more](https://github.com/node-minibase/minibase#readme) | [homepage](https://github.com/node-minibase/minibase#readme "MiniBase is minimalist approach to Base - @node-base, the awesome framework. Foundation for building complex APIs with small units called plugins. Works well with most of the already existing [base][] plugins.")
+- [try-catch-core](https://www.npmjs.com/package/try-catch-core): Low-level package to handle completion and errors of sync or asynchronous functions, using [once][] and [dezalgo][] libs. Useful for and used in higher-level libs such… [more](https://github.com/hybridables/try-catch-core#readme) | [homepage](https://github.com/hybridables/try-catch-core#readme "Low-level package to handle completion and errors of sync or asynchronous functions, using [once][] and [dezalgo][] libs. Useful for and used in higher-level libs such as [always-done][] to handle completion of anything.")
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/node-minibase/minibase-visit/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
@@ -87,9 +95,12 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
 
+[always-done]: https://github.com/hybridables/always-done
 [base]: https://github.com/node-base/base
 [collection-visit]: https://github.com/jonschlinkert/collection-visit
+[dezalgo]: https://github.com/npm/dezalgo
 [minibase]: https://github.com/node-minibase/minibase
+[once]: https://github.com/isaacs/once
 
 [npmjs-url]: https://www.npmjs.com/package/minibase-visit
 [npmjs-img]: https://img.shields.io/npm/v/minibase-visit.svg?label=minibase-visit
@@ -136,3 +147,4 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [new-message-url]: https://github.com/tunnckoCore/ama
 [new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
 
+[assert-kindof]: https://github.com/tunnckocore/assert-kindof

@@ -51,16 +51,26 @@
     "tasks": [
       "readme"
     ],
-    "lint": {
-      "reflinks": true
-    },
     "related": {
-      "list": []
+      "list": [
+        "minibase",
+        "minibase-is-registered",
+        "base-task-alias",
+        "try-catch-core",
+        "minibase-results",
+        "minibase-assert"
+      ]
     },
     "reflinks": [
       "base",
       "collection-visit",
-      "minibase"
-    ]
+      "minibase",
+      "always-done",
+      "dezalgo",
+      "once"
+    ],
+    "lint": {
+      "reflinks": true
+    }
   }
 }
