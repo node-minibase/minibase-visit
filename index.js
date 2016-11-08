@@ -8,7 +8,7 @@
 'use strict'
 
 var collectionVisit = require('collection-visit')
-var isRegistered = require('minibase-is-registered')
+var createPlugin = require('minibase-create-plugin')
 
 /**
  * > Adds `.visit` method to your application. That
@@ -37,11 +37,7 @@ var isRegistered = require('minibase-is-registered')
  */
 
 module.exports = function minibaseVisit (opts) {
-  return function minibaseVisit (self) {
-    self.use(isRegistered())
-    /* istanbul ignore next */
-    if (self.isRegistered('visit')) return
-
+  return createPlugin('minibase-visit', function minibaseVisit (self) {
     /**
      * > Visit `method` over the properties in the [base][]/[minibase][]
      * instance or map visit over the object-elements in an array.
@@ -85,5 +81,5 @@ module.exports = function minibaseVisit (opts) {
       collectionVisit(self, method, value)
       return self
     })
-  }
+  })
 }
