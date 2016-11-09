@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/node-minibase">
+    <img height="250" width="250" src="https://avatars1.githubusercontent.com/u/23032863?v=3&s=250">
+  </a>
+</p>
+
 # [minibase-visit][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] [![npm downloads][downloads-img]][downloads-url] 
 
 > Plugin for [minibase][] and [base][], that adds `.visit` method to your application to visit a method over the items in an object, or map visit over the objects in an array. Using using [collection-visit][] package.
@@ -44,7 +50,7 @@ var base = new Base()
 base.use(visit())
 ```
 
-### [.visit](index.js#L84)
+### [.visit](index.js#L80)
 > Visit `method` over the properties in the [base][]/[minibase][] instance or map visit over the object-elements in an array. More info can see on [collection-visit][] to understand how this works.
 
 **Params**
