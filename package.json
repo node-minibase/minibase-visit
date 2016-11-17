@@ -71,7 +71,12 @@
   },
   "verb": {
     "run": true,
-    "toc": true,
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 3,
+      "footer": ""
+    },
     "layout": "empty",
     "tasks": [
       "readme"
@@ -83,16 +88,24 @@
         "base-task-alias",
         "try-catch-core",
         "minibase-results",
-        "minibase-assert"
+        "minibase-assert",
+        "minibase-tests",
+        "minibase-create-plugin",
+        "minibase-better-define"
       ]
     },
     "reflinks": [
+      "always-done",
       "base",
       "collection-visit",
-      "minibase",
-      "always-done",
       "dezalgo",
-      "once"
+      "minibase",
+      "once",
+      "assert-kindof",
+      "commitizen",
+      "standard-version",
+      "verb",
+      "verb-generate-readme"
     ],
     "lint": {
       "reflinks": true
