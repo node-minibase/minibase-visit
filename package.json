@@ -1,6 +1,6 @@
 {
   "name": "minibase-visit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Plugin for [minibase][] and [base][], that adds `.visit` method to your application to visit a method over the items in an object, or map visit over the objects in an array. Using using [collection-visit][] package.",
   "repository": "node-minibase/minibase-visit",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://i.am.charlike.online)",
