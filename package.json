@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Plugin for [minibase][] and [base][], that adds `.visit` method to your application to visit a method over the items in an object, or map visit over the objects in an array. Using using [collection-visit][] package.",
   "repository": "node-minibase/minibase-visit",
-  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://i.am.charlike.online)",
   "precommit.silent": true,
   "main": "index.js",
   "license": "MIT",
@@ -22,18 +22,18 @@
   },
   "dependencies": {
     "collection-visit": "^0.2.3",
-    "minibase-create-plugin": "^1.0.2"
+    "minibase-create-plugin": "^1.0.3"
   },
   "devDependencies": {
-    "commitizen": "~2.7.0",
+    "commitizen": "~2.8.6",
     "coveralls": "^2.11.15",
     "cz-conventional-changelog": "1.1.5",
     "minibase": "^1.0.0",
     "mukla": "^0.4.8",
     "nyc": "^10.0.0",
     "pre-commit": "^1.1.3",
-    "standard": "^8.5.0",
-    "standard-version": "^3.0.0"
+    "standard": "^8.6.0",
+    "standard-version": "^4.0.0"
   },
   "files": [
     "index.js"
