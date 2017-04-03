@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "collection-visit": "^0.2.3",
-    "minibase-create-plugin": "^1.0.3"
+    "minibase-create-plugin": "^2.0.1"
   },
   "devDependencies": {
     "commitizen": "~2.8.6",
