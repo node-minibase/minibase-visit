@@ -21,7 +21,7 @@
     "commit": "git-cz"
   },
   "dependencies": {
-    "collection-visit": "^0.2.3",
+    "collection-visit": "^1.0.0",
     "minibase-create-plugin": "^1.0.3"
   },
   "devDependencies": {
